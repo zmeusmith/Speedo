@@ -407,7 +407,7 @@ void logData(){
       while (myFile.available()) {
         Serial.write(myFile.read());
       }
-    YYZ  // close the file:
+      // close the file:
       myFile.close();
     } else {
       // if the file didn't open, print an error:
